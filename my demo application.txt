@@ -1,0 +1,42 @@
+to write the android application the design layout with text-box, like username and password and also submit button
+
+android attribute id,it is used to transfer the frontend data into java file or .class file forthe backend process
+e.g,for frontend=android
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login screen"
+       android:textSize="28dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="118dp"
+        tools:ignore="MissingConstraints" />
+    
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        tools:ignore="MissingConstraints">
+    </EditText>
+    
+    
+    <EditText    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="25dp"></EditText>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        ></Button>
